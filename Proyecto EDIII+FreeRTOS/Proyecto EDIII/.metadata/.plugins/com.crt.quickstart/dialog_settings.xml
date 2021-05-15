@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="G:\Mi unidad\_UNSAM2021\Proyecto EDIII\4. Documentacion\Software\cmsis_proyecto_ed3_all.zip"/>
+		</list>
+	</section>
+	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
+		<item key="dirname" value="G:\Mi unidad\_UNSAM2021\Proyecto EDIII\4. Documentacion\Software"/>
+	</section>
+</section>

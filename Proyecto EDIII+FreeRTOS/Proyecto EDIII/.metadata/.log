@@ -65,3 +65,11 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.nxp.mcuxpresso.trace.core 4 0 2021-05-15 00:50:47.173
 !MESSAGE Unable to find Trace Service for '(gdb[0].proc[42000].threadGroup[i1],gdb[0].proc[42000].OSthread[1]).thread[1]'
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-05-15 02:53:52.320
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@edab879): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-05-15 02:53:52.320
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.core.jobs 2 2 2021-05-15 02:53:55.588
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob

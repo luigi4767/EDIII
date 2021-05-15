@@ -1,0 +1,13 @@
+core_cm4.h:1550:22:NVIC_SetPriority	16	static
+scu_18xx_43xx.h:135:20:Chip_SCU_PinMuxSet	16	static
+scu_18xx_43xx.h:150:20:Chip_SCU_PinMux	24	static
+uart_18xx_43xx.h:306:20:Chip_UART_TXEnable	16	static
+uart_18xx_43xx.h:357:20:Chip_UART_IntEnable	16	static
+uart_18xx_43xx.h:410:20:Chip_UART_SetupFIFOS	16	static
+blinky.c:22:13:prvSetupHardware	8	static
+blinky.c:66:6:uart_init	8	static
+blinky.c:86:6:adc_init	8	static
+blinky.c:95:12:App_Polling_Test	24	static
+blinky.c:117:13:vSignalTask	2016	static
+blinky.c:161:13:vFilterTask	1384	static
+blinky.c:204:9:main	24	static
