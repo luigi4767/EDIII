@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;periph_blinky2/example/src/systick2.c&apos; to &apos;systick.c&apos;" description="Rename resource &apos;systick2.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="example/src/systick2.c" name="systick.c" stamp="1590024772474" updateReferences="true"/>
+</session>

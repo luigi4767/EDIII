@@ -1,0 +1,6 @@
+16:55:46 **** Incremental Build of configuration Debug for project 8. freertos_blinky ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+16:55:47 Build Finished. 0 errors, 0 warnings. (took 70ms)
+

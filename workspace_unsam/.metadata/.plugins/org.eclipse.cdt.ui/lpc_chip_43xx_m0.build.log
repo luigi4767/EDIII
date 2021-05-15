@@ -1,0 +1,252 @@
+20:12:53 **** Build of configuration Debug for project lpc_chip_43xx_m0 ****
+make -r all 
+Building file: ../src/adc_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/adc_18xx_43xx.d" -MT"src/adc_18xx_43xx.o" -MT"src/adc_18xx_43xx.d" -o "src/adc_18xx_43xx.o" "../src/adc_18xx_43xx.c"
+Finished building: ../src/adc_18xx_43xx.c
+ 
+Building file: ../src/aes_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/aes_18xx_43xx.d" -MT"src/aes_18xx_43xx.o" -MT"src/aes_18xx_43xx.d" -o "src/aes_18xx_43xx.o" "../src/aes_18xx_43xx.c"
+Finished building: ../src/aes_18xx_43xx.c
+ 
+Building file: ../src/atimer_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/atimer_18xx_43xx.d" -MT"src/atimer_18xx_43xx.o" -MT"src/atimer_18xx_43xx.d" -o "src/atimer_18xx_43xx.o" "../src/atimer_18xx_43xx.c"
+Finished building: ../src/atimer_18xx_43xx.c
+ 
+Building file: ../src/ccan_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/ccan_18xx_43xx.d" -MT"src/ccan_18xx_43xx.o" -MT"src/ccan_18xx_43xx.d" -o "src/ccan_18xx_43xx.o" "../src/ccan_18xx_43xx.c"
+Finished building: ../src/ccan_18xx_43xx.c
+ 
+Building file: ../src/chip_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/chip_18xx_43xx.d" -MT"src/chip_18xx_43xx.o" -MT"src/chip_18xx_43xx.d" -o "src/chip_18xx_43xx.o" "../src/chip_18xx_43xx.c"
+Finished building: ../src/chip_18xx_43xx.c
+ 
+Building file: ../src/clock_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/clock_18xx_43xx.d" -MT"src/clock_18xx_43xx.o" -MT"src/clock_18xx_43xx.d" -o "src/clock_18xx_43xx.o" "../src/clock_18xx_43xx.c"
+Finished building: ../src/clock_18xx_43xx.c
+ 
+Building file: ../src/dac_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/dac_18xx_43xx.d" -MT"src/dac_18xx_43xx.o" -MT"src/dac_18xx_43xx.d" -o "src/dac_18xx_43xx.o" "../src/dac_18xx_43xx.c"
+Finished building: ../src/dac_18xx_43xx.c
+ 
+Building file: ../src/eeprom_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/eeprom_18xx_43xx.d" -MT"src/eeprom_18xx_43xx.o" -MT"src/eeprom_18xx_43xx.d" -o "src/eeprom_18xx_43xx.o" "../src/eeprom_18xx_43xx.c"
+Finished building: ../src/eeprom_18xx_43xx.c
+ 
+Building file: ../src/emc_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/emc_18xx_43xx.d" -MT"src/emc_18xx_43xx.o" -MT"src/emc_18xx_43xx.d" -o "src/emc_18xx_43xx.o" "../src/emc_18xx_43xx.c"
+Finished building: ../src/emc_18xx_43xx.c
+ 
+Building file: ../src/enet_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/enet_18xx_43xx.d" -MT"src/enet_18xx_43xx.o" -MT"src/enet_18xx_43xx.d" -o "src/enet_18xx_43xx.o" "../src/enet_18xx_43xx.c"
+Finished building: ../src/enet_18xx_43xx.c
+ 
+Building file: ../src/evrt_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/evrt_18xx_43xx.d" -MT"src/evrt_18xx_43xx.o" -MT"src/evrt_18xx_43xx.d" -o "src/evrt_18xx_43xx.o" "../src/evrt_18xx_43xx.c"
+Finished building: ../src/evrt_18xx_43xx.c
+ 
+Building file: ../src/gpdma_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/gpdma_18xx_43xx.d" -MT"src/gpdma_18xx_43xx.o" -MT"src/gpdma_18xx_43xx.d" -o "src/gpdma_18xx_43xx.o" "../src/gpdma_18xx_43xx.c"
+Finished building: ../src/gpdma_18xx_43xx.c
+ 
+Building file: ../src/gpio_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/gpio_18xx_43xx.d" -MT"src/gpio_18xx_43xx.o" -MT"src/gpio_18xx_43xx.d" -o "src/gpio_18xx_43xx.o" "../src/gpio_18xx_43xx.c"
+Finished building: ../src/gpio_18xx_43xx.c
+ 
+Building file: ../src/gpiogroup_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/gpiogroup_18xx_43xx.d" -MT"src/gpiogroup_18xx_43xx.o" -MT"src/gpiogroup_18xx_43xx.d" -o "src/gpiogroup_18xx_43xx.o" "../src/gpiogroup_18xx_43xx.c"
+Finished building: ../src/gpiogroup_18xx_43xx.c
+ 
+Building file: ../src/hsadc_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/hsadc_18xx_43xx.d" -MT"src/hsadc_18xx_43xx.o" -MT"src/hsadc_18xx_43xx.d" -o "src/hsadc_18xx_43xx.o" "../src/hsadc_18xx_43xx.c"
+Finished building: ../src/hsadc_18xx_43xx.c
+ 
+Building file: ../src/i2c_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/i2c_18xx_43xx.d" -MT"src/i2c_18xx_43xx.o" -MT"src/i2c_18xx_43xx.d" -o "src/i2c_18xx_43xx.o" "../src/i2c_18xx_43xx.c"
+Finished building: ../src/i2c_18xx_43xx.c
+ 
+Building file: ../src/i2cm_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/i2cm_18xx_43xx.d" -MT"src/i2cm_18xx_43xx.o" -MT"src/i2cm_18xx_43xx.d" -o "src/i2cm_18xx_43xx.o" "../src/i2cm_18xx_43xx.c"
+Finished building: ../src/i2cm_18xx_43xx.c
+ 
+Building file: ../src/i2s_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/i2s_18xx_43xx.d" -MT"src/i2s_18xx_43xx.o" -MT"src/i2s_18xx_43xx.d" -o "src/i2s_18xx_43xx.o" "../src/i2s_18xx_43xx.c"
+Finished building: ../src/i2s_18xx_43xx.c
+ 
+Building file: ../src/iap_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/iap_18xx_43xx.d" -MT"src/iap_18xx_43xx.o" -MT"src/iap_18xx_43xx.d" -o "src/iap_18xx_43xx.o" "../src/iap_18xx_43xx.c"
+Finished building: ../src/iap_18xx_43xx.c
+ 
+Building file: ../src/lcd_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/lcd_18xx_43xx.d" -MT"src/lcd_18xx_43xx.o" -MT"src/lcd_18xx_43xx.d" -o "src/lcd_18xx_43xx.o" "../src/lcd_18xx_43xx.c"
+Finished building: ../src/lcd_18xx_43xx.c
+ 
+Building file: ../src/otp_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/otp_18xx_43xx.d" -MT"src/otp_18xx_43xx.o" -MT"src/otp_18xx_43xx.d" -o "src/otp_18xx_43xx.o" "../src/otp_18xx_43xx.c"
+Finished building: ../src/otp_18xx_43xx.c
+ 
+Building file: ../src/pinint_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/pinint_18xx_43xx.d" -MT"src/pinint_18xx_43xx.o" -MT"src/pinint_18xx_43xx.d" -o "src/pinint_18xx_43xx.o" "../src/pinint_18xx_43xx.c"
+Finished building: ../src/pinint_18xx_43xx.c
+ 
+Building file: ../src/pmc_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/pmc_18xx_43xx.d" -MT"src/pmc_18xx_43xx.o" -MT"src/pmc_18xx_43xx.d" -o "src/pmc_18xx_43xx.o" "../src/pmc_18xx_43xx.c"
+Finished building: ../src/pmc_18xx_43xx.c
+ 
+Building file: ../src/ring_buffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/ring_buffer.d" -MT"src/ring_buffer.o" -MT"src/ring_buffer.d" -o "src/ring_buffer.o" "../src/ring_buffer.c"
+Finished building: ../src/ring_buffer.c
+ 
+Building file: ../src/ritimer_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/ritimer_18xx_43xx.d" -MT"src/ritimer_18xx_43xx.o" -MT"src/ritimer_18xx_43xx.d" -o "src/ritimer_18xx_43xx.o" "../src/ritimer_18xx_43xx.c"
+Finished building: ../src/ritimer_18xx_43xx.c
+ 
+Building file: ../src/rtc_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/rtc_18xx_43xx.d" -MT"src/rtc_18xx_43xx.o" -MT"src/rtc_18xx_43xx.d" -o "src/rtc_18xx_43xx.o" "../src/rtc_18xx_43xx.c"
+Finished building: ../src/rtc_18xx_43xx.c
+ 
+Building file: ../src/sct_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/sct_18xx_43xx.d" -MT"src/sct_18xx_43xx.o" -MT"src/sct_18xx_43xx.d" -o "src/sct_18xx_43xx.o" "../src/sct_18xx_43xx.c"
+Finished building: ../src/sct_18xx_43xx.c
+ 
+Building file: ../src/sct_pwm_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/sct_pwm_18xx_43xx.d" -MT"src/sct_pwm_18xx_43xx.o" -MT"src/sct_pwm_18xx_43xx.d" -o "src/sct_pwm_18xx_43xx.o" "../src/sct_pwm_18xx_43xx.c"
+Finished building: ../src/sct_pwm_18xx_43xx.c
+ 
+Building file: ../src/sdif_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/sdif_18xx_43xx.d" -MT"src/sdif_18xx_43xx.o" -MT"src/sdif_18xx_43xx.d" -o "src/sdif_18xx_43xx.o" "../src/sdif_18xx_43xx.c"
+Finished building: ../src/sdif_18xx_43xx.c
+ 
+Building file: ../src/sdio_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/sdio_18xx_43xx.d" -MT"src/sdio_18xx_43xx.o" -MT"src/sdio_18xx_43xx.d" -o "src/sdio_18xx_43xx.o" "../src/sdio_18xx_43xx.c"
+Finished building: ../src/sdio_18xx_43xx.c
+ 
+Building file: ../src/sdmmc_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/sdmmc_18xx_43xx.d" -MT"src/sdmmc_18xx_43xx.o" -MT"src/sdmmc_18xx_43xx.d" -o "src/sdmmc_18xx_43xx.o" "../src/sdmmc_18xx_43xx.c"
+Finished building: ../src/sdmmc_18xx_43xx.c
+ 
+Building file: ../src/spi_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/spi_18xx_43xx.d" -MT"src/spi_18xx_43xx.o" -MT"src/spi_18xx_43xx.d" -o "src/spi_18xx_43xx.o" "../src/spi_18xx_43xx.c"
+../src/spi_18xx_43xx.c: In function 'Chip_SPI_Int_FlushData':
+../src/spi_18xx_43xx.c:138:20: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t tmp;
+                    ^~~
+Finished building: ../src/spi_18xx_43xx.c
+ 
+Building file: ../src/ssp_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/ssp_18xx_43xx.d" -MT"src/ssp_18xx_43xx.o" -MT"src/ssp_18xx_43xx.d" -o "src/ssp_18xx_43xx.o" "../src/ssp_18xx_43xx.c"
+Finished building: ../src/ssp_18xx_43xx.c
+ 
+Building file: ../src/stopwatch_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/stopwatch_18xx_43xx.d" -MT"src/stopwatch_18xx_43xx.o" -MT"src/stopwatch_18xx_43xx.d" -o "src/stopwatch_18xx_43xx.o" "../src/stopwatch_18xx_43xx.c"
+Finished building: ../src/stopwatch_18xx_43xx.c
+ 
+Building file: ../src/sysinit_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/sysinit_18xx_43xx.d" -MT"src/sysinit_18xx_43xx.o" -MT"src/sysinit_18xx_43xx.d" -o "src/sysinit_18xx_43xx.o" "../src/sysinit_18xx_43xx.c"
+Finished building: ../src/sysinit_18xx_43xx.c
+ 
+Building file: ../src/timer_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/timer_18xx_43xx.d" -MT"src/timer_18xx_43xx.o" -MT"src/timer_18xx_43xx.d" -o "src/timer_18xx_43xx.o" "../src/timer_18xx_43xx.c"
+Finished building: ../src/timer_18xx_43xx.c
+ 
+Building file: ../src/uart_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/uart_18xx_43xx.d" -MT"src/uart_18xx_43xx.o" -MT"src/uart_18xx_43xx.d" -o "src/uart_18xx_43xx.o" "../src/uart_18xx_43xx.c"
+../src/uart_18xx_43xx.c: In function 'Chip_UART_Init':
+../src/uart_18xx_43xx.c:98:23: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+     volatile uint32_t tmp;
+                       ^~~
+Finished building: ../src/uart_18xx_43xx.c
+ 
+Building file: ../src/wwdt_18xx_43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/wwdt_18xx_43xx.d" -MT"src/wwdt_18xx_43xx.o" -MT"src/wwdt_18xx_43xx.d" -o "src/wwdt_18xx_43xx.o" "../src/wwdt_18xx_43xx.c"
+Finished building: ../src/wwdt_18xx_43xx.c
+ 
+Building target: liblpc_chip_43xx_m0.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_chip_43xx_m0.a"  ./src/adc_18xx_43xx.o ./src/aes_18xx_43xx.o ./src/atimer_18xx_43xx.o ./src/ccan_18xx_43xx.o ./src/chip_18xx_43xx.o ./src/clock_18xx_43xx.o ./src/dac_18xx_43xx.o ./src/eeprom_18xx_43xx.o ./src/emc_18xx_43xx.o ./src/enet_18xx_43xx.o ./src/evrt_18xx_43xx.o ./src/gpdma_18xx_43xx.o ./src/gpio_18xx_43xx.o ./src/gpiogroup_18xx_43xx.o ./src/hsadc_18xx_43xx.o ./src/i2c_18xx_43xx.o ./src/i2cm_18xx_43xx.o ./src/i2s_18xx_43xx.o ./src/iap_18xx_43xx.o ./src/lcd_18xx_43xx.o ./src/otp_18xx_43xx.o ./src/pinint_18xx_43xx.o ./src/pmc_18xx_43xx.o ./src/ring_buffer.o ./src/ritimer_18xx_43xx.o ./src/rtc_18xx_43xx.o ./src/sct_18xx_43xx.o ./src/sct_pwm_18xx_43xx.o ./src/sdif_18xx_43xx.o ./src/sdio_18xx_43xx.o ./src/sdmmc_18xx_43xx.o ./src/spi_18xx_43xx.o ./src/ssp_18xx_43xx.o ./src/stopwatch_18xx_43xx.o ./src/sysinit_18xx_43xx.o ./src/timer_18xx_43xx.o ./src/uart_18xx_43xx.o ./src/wwdt_18xx_43xx.o   
+arm-none-eabi-ar: creating liblpc_chip_43xx_m0.a
+Finished building target: liblpc_chip_43xx_m0.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_chip_43xx_m0.a" ; # arm-none-eabi-objdump -h -S "liblpc_chip_43xx_m0.a" >"liblpc_chip_43xx_m0.lss"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	      0	   1256	    4e8	adc_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    676	      0	     56	    732	    2dc	aes_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    150	      0	      0	    150	     96	atimer_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   2400	      0	      0	   2400	    960	ccan_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    272	      0	      0	    272	    110	chip_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   4680	      0	      8	   4688	   1250	clock_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    166	      0	      0	    166	     a6	dac_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    386	      0	      0	    386	    182	eeprom_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   1528	      0	      0	   1528	    5f8	emc_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    848	      0	      4	    852	    354	enet_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    484	      0	      0	    484	    1e4	evrt_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   3204	    120	      8	   3332	    d04	gpdma_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+     32	      0	      0	     32	     20	gpio_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+      0	      0	      0	      0	      0	gpiogroup_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    902	      0	      0	    902	    386	hsadc_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   3860	     56	     80	   3996	    f9c	i2c_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   1422	      0	      0	   1422	    58e	i2cm_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   1662	      0	      0	   1662	    67e	i2s_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    846	      0	      0	    846	    34e	iap_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   1122	      1	      0	   1123	    463	lcd_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    500	      0	     40	    540	    21c	otp_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+      0	      0	      0	      0	      0	pinint_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+     52	      0	      0	     52	     34	pmc_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    956	      0	      0	    956	    3bc	ring_buffer.o (ex liblpc_chip_43xx_m0.a)
+    250	      0	      0	    250	     fa	ritimer_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   1068	      0	      0	   1068	    42c	rtc_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    200	      0	      0	    200	     c8	sct_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    490	      0	      0	    490	    1ea	sct_pwm_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    694	      0	      0	    694	    2b6	sdif_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   2724	      4	    320	   3048	    be8	sdio_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   3302	      0	      4	   3306	    cea	sdmmc_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   1156	      0	      0	   1156	    484	spi_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   2512	      0	      0	   2512	    9d0	ssp_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    380	      0	     12	    392	    188	stopwatch_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    650	      0	      0	    650	    28a	sysinit_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    344	      0	      0	    344	    158	timer_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+   2234	      0	      1	   2235	    8bb	uart_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+    122	      0	      0	    122	     7a	wwdt_18xx_43xx.o (ex liblpc_chip_43xx_m0.a)
+ 
+
+20:13:04 Build Finished. 0 errors, 2 warnings. (took 11s.309ms)
+

@@ -1,0 +1,82 @@
+00:46:09 **** Incremental Build of configuration Debug for project cmsis_fir_adc ****
+make -r -j4 all 
+Building file: ../example/src/adc.c
+Building file: ../example/src/cr_startup_lpc43xx.c
+Building file: ../example/src/sysinit.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__CODE_RED -D__USE_LPCOPEN -D__REDLIB__ -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc" -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../example/src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"example/src/adc.d" -MT"example/src/adc.o" -MT"example/src/adc.d" -o "example/src/adc.o" "../example/src/adc.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__CODE_RED -D__USE_LPCOPEN -D__REDLIB__ -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc" -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../example/src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"example/src/cr_startup_lpc43xx.d" -MT"example/src/cr_startup_lpc43xx.o" -MT"example/src/cr_startup_lpc43xx.d" -o "example/src/cr_startup_lpc43xx.o" "../example/src/cr_startup_lpc43xx.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__CODE_RED -D__USE_LPCOPEN -D__REDLIB__ -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc" -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../example/src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"example/src/sysinit.d" -MT"example/src/sysinit.o" -MT"example/src/sysinit.d" -o "example/src/sysinit.o" "../example/src/sysinit.c"
+Finished building: ../example/src/cr_startup_lpc43xx.c
+../example/src/adc.c: In function 'main':
+../example/src/adc.c:118:53: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  Chip_UART_SendBlocking (USART_ID , Mensaje, strlen(Mensaje)); //printf(Mensaje)
+                                                     ^~~~~~~
+In file included from C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc/arm/arm_math.h:285,
+                 from C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc/arm_math.h:40,
+                 from ../example/src/adc.c:13:
+c:\nxp\mcuxpressoide_11.1.1_3241\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728\tools\redlib\include\string.h:62:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+ extern size_t strlen(const char *__s);
+               ^~~~~~
+../example/src/adc.c:121:45: warning: passing argument 1 of 'App_Polling_Test' makes pointer from integer without a cast [-Wint-conversion]
+   muestra = (int) App_Polling_Test(bufferADC[320]);
+                                    ~~~~~~~~~^~~~~
+../example/src/adc.c:77:38: note: expected 'uint16_t *' {aka 'short unsigned int *'} but argument is of type 'uint16_t' {aka 'short unsigned int'}
+ static int App_Polling_Test(uint16_t bufferADC[320]){
+                             ~~~~~~~~~^~~~~~~~~~~~~~
+../example/src/adc.c:128:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   uint8_t num = sprintf(valores, "%.10f,", testInput_f32_1kHz_8kHz[contador2]);
+                         ^~~~~~~
+In file included from ../example/src/adc.c:15:
+c:\nxp\mcuxpressoide_11.1.1_3241\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728\tools\redlib\include\stdio.h:140:12: note: expected 'char * restrict' but argument is of type 'unsigned char *'
+ 
+ extern int sprintf(char * restrict s,
+            ^~~~~~~
+../example/src/adc.c:146:54: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  Chip_UART_SendBlocking (USART_ID , Mensaje2, strlen(Mensaje2)); //printf(Mensaje2)
+                                                      ^~~~~~~~
+In file included from C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc/arm/arm_math.h:285,
+                 from C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc/arm_math.h:40,
+                 from ../example/src/adc.c:13:
+c:\nxp\mcuxpressoide_11.1.1_3241\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728\tools\redlib\include\string.h:62:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+ extern size_t strlen(const char *__s);
+               ^~~~~~
+../example/src/adc.c:149:26: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   uint8_t num2 = sprintf(filtro, "%.10f,", outputF32[contador3]);
+                          ^~~~~~
+In file included from ../example/src/adc.c:15:
+c:\nxp\mcuxpressoide_11.1.1_3241\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728\tools\redlib\include\stdio.h:140:12: note: expected 'char * restrict' but argument is of type 'unsigned char *'
+ extern int sprintf(char * restrict s,
+            ^~~~~~~
+../example/src/adc.c:155:49: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  Chip_UART_SendBlocking (USART_ID , Fin, strlen(Fin)); //printf("Fin de conversion");
+                                                 ^~~
+In file included from C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc/arm/arm_math.h:285,
+                 from C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\inc/arm_math.h:40,
+                 from ../example/src/adc.c:13:
+c:\nxp\mcuxpressoide_11.1.1_3241\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728\tools\redlib\include\string.h:62:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+ extern size_t strlen(const char *__s);
+               ^~~~~~
+../example/src/adc.c:106:11: warning: variable 'data' set but not used [-Wunused-but-set-variable]
+  uint16_t data[TEST_LENGTH_SAMPLES];
+           ^~~~
+Finished building: ../example/src/sysinit.c
+ 
+Finished building: ../example/src/adc.c
+ 
+Building target: cmsis_fir_adc.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\CMSIS_DSPLIB_CM4\lib" -L"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_chip_43xx\Debug" -L"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII\lpc_board_nxp_lpcxpresso_4337\Debug" -Xlinker -Map="cmsis_fir_adc.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "periph_adc_natalia_Debug.ld" -o "cmsis_fir_adc.axf"  ./example/src/adc.o ./example/src/cr_startup_lpc43xx.o ./example/src/sysinit.o   -llpc_board_nxp_lpcxpresso_4337 -lCMSIS_DSPLIB_CM4 -llpc_chip_43xx
+Finished building target: cmsis_fir_adc.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "cmsis_fir_adc.axf"; # arm-none-eabi-objcopy -v -O binary "cmsis_fir_adc.axf" "cmsis_fir_adc.bin" ; # checksum -p LPC4337 -d "cmsis_fir_adc.bin";
+   text	   data	    bss	    dec	    hex	filename
+  17796	     96	   2056	  19948	   4dec	cmsis_fir_adc.axf
+ 
+
+00:46:12 Build Finished. 0 errors, 7 warnings. (took 3s.136ms)
+

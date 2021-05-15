@@ -1,0 +1,13 @@
+scu_18xx_43xx.h:135:20:Chip_SCU_PinMuxSet	16	static
+scu_18xx_43xx.h:150:20:Chip_SCU_PinMux	24	static
+scu_18xx_43xx.h:210:20:Chip_SCU_ADC_Channel_Config	16	static
+gpio_18xx_43xx.h:95:20:Chip_GPIO_SetPinState	16	static
+gpio_18xx_43xx.h:154:20:Chip_GPIO_SetPinDIROutput	16	static
+gpio_18xx_43xx.h:166:20:Chip_GPIO_SetPinDIRInput	16	static
+blinky.c:84:6:ADC0_IRQHandler	16	static
+blinky.c:95:13:prvSetupHardware	8	static
+blinky.c:124:14:Leer_ADC	48	static
+blinky.c:133:6:DAC_Output	16	static
+blinky.c:140:13:Procesa_Datos	16	static
+blinky.c:197:13:Salida_Datos	16	static
+blinky.c:219:5:main	24	static

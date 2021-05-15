@@ -1,0 +1,166 @@
+/*
+ * @brief Blinky example using sysTick
+ *
+ * @note
+ * Copyright(C) NXP Semiconductors, 2013
+ * All rights reserved.
+ *
+ * @par
+ * Software that is described herein is for illustrative purposes only
+ * which provides customers with programming information regarding the
+ * LPC products.  This software is supplied "AS IS" without any warranties of
+ * any kind, and NXP Semiconductors and its licensor disclaim any and
+ * all warranties, express or implied, including all implied warranties of
+ * merchantability, fitness for a particular purpose and non-infringement of
+ * intellectual property rights.  NXP Semiconductors assumes no responsibility
+ * or liability for the use of the software, conveys no license or rights under any
+ * patent, copyright, mask work right, or any other intellectual property rights in
+ * or to any products. NXP Semiconductors reserves the right to make changes
+ * in the software without notification. NXP Semiconductors also makes no
+ * representation or warranty that such application will be suitable for the
+ * specified use without further testing or modification.
+ *
+ * @par
+ * Permission to use, copy, modify, and distribute this software and its
+ * documentation is hereby granted, under NXP Semiconductors' and its
+ * licensor's relevant copyrights in the software, without fee, provided that it
+ * is used in conjunction with NXP Semiconductors microcontrollers.  This
+ * copyright, permission, and disclaimer notice must appear in all copies of
+ * this code.
+ */
+
+#include "board.h"
+
+/*****************************************************************************
+ * Private types/enumerations/variables
+ ****************************************************************************/
+
+#define TICKRATE_HZ (1000)	/* 1000 ticks per second */
+
+#define PORT(n)		((uint8_t) n)
+#define PIN(n)		((uint8_t) n)
+#define GRUPO(n)	((uint8_t) n)
+
+#define MATCH(n)	((uint8_t) n)
+
+/*****************************************************************************
+ * Public types/enumerations/variables
+ ****************************************************************************/
+
+/*****************************************************************************
+ * Private functions
+ ****************************************************************************/
+void Configuracion_IO (void);
+void Configuracion_Timers (void);
+
+/*****************************************************************************
+ * Public functions
+ ****************************************************************************/
+
+void Configuracion_IO (void)
+{
+	Chip_GPIO_Init(LPC_GPIO_PORT);
+
+	//SE HABILITA EL GPIO EN LOS PULSADORES
+	Chip_SCU_PinMux( GRUPO(1) , PIN(0) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC0 );
+	Chip_SCU_PinMux( GRUPO(1) , PIN(1) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC0 );
+	Chip_SCU_PinMux( GRUPO(1) , PIN(2) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC0 );
+	Chip_SCU_PinMux( GRUPO(1) , PIN(6) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC0 );
+
+
+	//Habilitamos el Match en P2_10 (LED 1 - AMARILLO)
+	Chip_SCU_PinMux( GRUPO(2) , PIN(10) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC1 );
+	
+	Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT , PORT(0) , PIN(4));//TEC_1
+	Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT , PORT(0) , PIN(8));//TEC_2
+	Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT , PORT(0) , PIN(9));//TEC_3
+
+	Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT , PORT(1) , PIN(11));//led rojo
+	Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT , PORT(1) , PIN(12));//led verde
+	Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT , PORT(0) , PIN(14));//led amarillo
+
+	Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(11) , (bool) false);
+	Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(12) , (bool) false);
+	Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(0) , PIN(14) , (bool) false);
+}
+
+void Configuracion_Timers(void)
+{
+	Chip_TIMER_Init(LPC_TIMER0); //Enciendo el Timer
+	Chip_TIMER_Reset(LPC_TIMER0); //Timer en 0
+
+	Chip_TIMER_SetMatch(LPC_TIMER0, MATCH(2), SystemCoreClock/2);
+	Chip_TIMER_MatchEnableInt(LPC_TIMER0, MATCH(2));
+
+	Chip_TIMER_ResetOnMatchEnable(LPC_TIMER0, MATCH(2));
+	Chip_TIMER_StopOnMatchDisable(LPC_TIMER0, MATCH(2));
+
+	Chip_TIMER_ExtMatchControlSet(LPC_TIMER0, 0 ,TIMER_EXTMATCH_TOGGLE ,MATCH(2));
+
+	Chip_TIMER_Enable(LPC_TIMER0); //Inicio la cuenta
+
+	NVIC_ClearPendingIRQ(TIMER0_IRQn);
+	NVIC_EnableIRQ(TIMER0_IRQn);
+}
+
+/*ACA PREGUNTO QUIEN FUE EL QUE ME INTERRUMPIO**/
+void TIMER0_IRQHandler (void)
+{
+	if 	(Chip_TIMER_MatchPending(LPC_TIMER0, MATCH(2)))
+	{
+		 Chip_TIMER_ClearMatch(LPC_TIMER0, MATCH(2)); //ENCIENDE POR MATCH2 LED1
+		 Chip_GPIO_SetPinToggle(LPC_GPIO_PORT, PORT(1), PIN(11)); //led rojo
+	}
+
+}
+
+/**
+ * @brief	Handle interrupt from SysTick timer
+ * @return	Nothing
+ */
+static uint32_t tick_ct = 0;
+void SysTick_Handler(void)
+{
+	tick_ct += 1;
+	if ((tick_ct % 50) == 0)
+	{
+		if ( (bool) Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(4) ) == 0 )
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(0) , PIN(14) , (bool) true);
+		else
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(0) , PIN(14) , (bool) false);
+
+
+		if ( (bool) Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(8) ) == 0 )
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(11) , (bool) true);
+		else
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(11) , (bool) false);
+
+
+		if ( (bool) Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(9) ) == 0 )
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(12) , (bool) true);
+		else
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(12) , (bool) false);
+	}
+}
+
+
+/**
+ * @brief	main routine for blinky example
+ * @return	Function should not exit.
+ */
+int main(void)
+{
+
+	SystemCoreClockUpdate();
+
+	Configuracion_IO ();
+	Configuracion_Timers();
+
+	/* Enable and setup SysTick Timer at a periodic rate */
+	SysTick_Config(SystemCoreClock / TICKRATE_HZ);
+
+	while (1)
+	{
+		__WFI();
+	}
+}

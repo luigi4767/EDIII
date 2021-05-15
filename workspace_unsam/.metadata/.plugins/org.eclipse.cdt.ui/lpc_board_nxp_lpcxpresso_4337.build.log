@@ -1,0 +1,45 @@
+00:25:22 **** Build of configuration Debug for project lpc_board_nxp_lpcxpresso_4337 ****
+make -r all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building file: ../src/lcd_st7565s.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/lcd_st7565s.d" -MT"src/lcd_st7565s.o" -MT"src/lcd_st7565s.d" -o "src/lcd_st7565s.o" "../src/lcd_st7565s.c"
+Finished building: ../src/lcd_st7565s.c
+ 
+Building file: ../src/lpc_phy_smsc87x0.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/lpc_phy_smsc87x0.d" -MT"src/lpc_phy_smsc87x0.o" -MT"src/lpc_phy_smsc87x0.d" -o "src/lpc_phy_smsc87x0.o" "../src/lpc_phy_smsc87x0.c"
+Finished building: ../src/lpc_phy_smsc87x0.c
+ 
+Building file: ../src/wm8904.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M4 -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_chip_43xx\inc" -I"C:\Users\luis_\Documents\MCUXpresso\workspace_unsam\lpc_board_nxp_lpcxpresso_4337\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/wm8904.d" -MT"src/wm8904.o" -MT"src/wm8904.d" -o "src/wm8904.o" "../src/wm8904.c"
+Finished building: ../src/wm8904.c
+ 
+Building target: liblpc_board_nxp_lpcxpresso_4337.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_board_nxp_lpcxpresso_4337.a"  ./src/board.o ./src/board_sysinit.o ./src/lcd_st7565s.o ./src/lpc_phy_smsc87x0.o ./src/wm8904.o   
+Finished building target: liblpc_board_nxp_lpcxpresso_4337.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_board_nxp_lpcxpresso_4337.a" ; # arm-none-eabi-objdump -h -S "liblpc_board_nxp_lpcxpresso_4337.a" >"liblpc_board_nxp_lpcxpresso_4337.lss"
+   text	   data	    bss	    dec	    hex	filename
+   2176	      0	      4	   2180	    884	board.o (ex liblpc_board_nxp_lpcxpresso_4337.a)
+    438	      0	      0	    438	    1b6	board_sysinit.o (ex liblpc_board_nxp_lpcxpresso_4337.a)
+   1692	      4	   1044	   2740	    ab4	lcd_st7565s.o (ex liblpc_board_nxp_lpcxpresso_4337.a)
+    872	      0	     18	    890	    37a	lpc_phy_smsc87x0.o (ex liblpc_board_nxp_lpcxpresso_4337.a)
+    788	      0	      0	    788	    314	wm8904.o (ex liblpc_board_nxp_lpcxpresso_4337.a)
+ 
+
+00:25:39 Build Finished. 0 errors, 0 warnings. (took 17s.191ms)
+

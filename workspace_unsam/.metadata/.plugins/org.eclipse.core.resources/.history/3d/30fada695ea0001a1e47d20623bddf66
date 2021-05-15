@@ -1,0 +1,225 @@
+/*
+*EJERCICIO MODELO PARCIAL EDIII: LECTOR DE HUELLAS
+*
+* PIN #38:  Es la señal de entrada. Etiqueta P1_0. GPIO0(4). Entrada con Pull Up
+* PIN #105: Es la señal del motor. Con 1 Enciendo y con 0 Apago. P2_11. GPIO1(11). Salida
+* PIN #104:  Led indicador. P2_10. GPIO0(14). Salida
+*
+* CONDICIONES:
+* Monitorear con la señal de entrada el estado del acceso:
+* Acceso denegado: 0.5s < t < 2s. No accionamos salida. Toggleamos un led rojo por 5s c/1s.
+* Acceso concedido:  2s < t < 4s. Activamos salida por 5s. Togleamos led verde por 5s c/250ms
+*
+* DESARROLLO
+* Usamos un tiempo de muestreo minimo multiplo de las señales a controlar: ej cuenta=50ms
+* Configuramos el TIMER0
+*
+ */
+
+#include "board.h"
+
+/*****************************************************************************
+ * Private types/enumerations/variables
+ ****************************************************************************/
+
+#define TICKRATE_HZ (1000)	/* 1000 ticks per second */
+
+#define PORT(n)		((uint8_t) n)
+#define PIN(n)		((uint8_t) n)
+#define GRUPO(n)	((uint8_t) n)
+
+#define MATCH(n)	((uint8_t) n)
+
+#define ACCESO_DENEGADO		((unsigned int) 1)
+#define ACCESO_VALIDO		((unsigned int) 2)
+
+unsigned int Acceso;
+
+/*****************************************************************************
+ * Public types/enumerations/variables
+ ****************************************************************************/
+
+/*****************************************************************************
+ * Private functions
+ ****************************************************************************/
+void Configuracion_IO (void);
+void Configuracion_Timers (void);
+
+/*****************************************************************************
+ * Public functions
+ ****************************************************************************/
+
+void Configuracion_IO (void)
+{
+	Chip_GPIO_Init(LPC_GPIO_PORT);
+
+	//SE HABILITA EL GPIO EN LOS PULSADORES
+	Chip_SCU_PinMux( GRUPO(1) , PIN(0) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC0 );
+	Chip_SCU_PinMux( GRUPO(2) , PIN(10) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC0 );
+	Chip_SCU_PinMux( GRUPO(2) , PIN(11) , SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS , SCU_MODE_FUNC0 );
+	
+	Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT , PORT(0) , PIN(4));  //TEC_1
+	//Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT , PORT(0) , PIN(8));//TEC_2
+	//Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT , PORT(0) , PIN(9));//TEC_3
+
+	//Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT , PORT(1) , PIN(11));  //led rojo
+	Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT , PORT(1) , PIN(12));   //led verde
+	Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT , PORT(0) , PIN(14));//led amarillo
+
+	//Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(11) , (bool) false);
+	Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(12) , (bool) false); //estado 0
+	Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(0) , PIN(14) , (bool) false); //estado 0
+}
+
+void Configuracion_Timers(void) //div por SystemCoreClock equivale 1s
+{
+	Chip_TIMER_Init(LPC_TIMER0); //Enciendo el Timer
+	Chip_TIMER_Reset(LPC_TIMER0); //Timer en 0
+	Chip_TIMER_SetMatch(LPC_TIMER0, MATCH(0), SystemCoreClock/20); //enciendo timer cada 20ms
+	Chip_TIMER_MatchEnableInt(LPC_TIMER0, MATCH(0));
+	Chip_TIMER_ResetOnMatchEnable(LPC_TIMER0, MATCH(0));
+	Chip_TIMER_StopOnMatchDisable(LPC_TIMER0, MATCH(0));
+	Chip_TIMER_Enable(LPC_TIMER0); //Inicio la cuenta
+
+	Chip_TIMER_Init(LPC_TIMER1); //Enciendo el Timer
+	Chip_TIMER_Reset(LPC_TIMER1); //Timer en 0
+	Chip_TIMER_SetMatch(LPC_TIMER1, MATCH(0), SystemCoreClock/4); //enciendo timer cada 250ms
+	Chip_TIMER_MatchEnableInt(LPC_TIMER1, MATCH(0));
+	Chip_TIMER_ResetOnMatchEnable(LPC_TIMER1, MATCH(0));
+	Chip_TIMER_StopOnMatchDisable(LPC_TIMER1, MATCH(0));
+	//Chip_TIMER_Enable(LPC_TIMER0); //Inicio la cuenta
+
+	NVIC_ClearPendingIRQ(TIMER0_IRQn);
+	NVIC_EnableIRQ(TIMER0_IRQn);
+
+	NVIC_ClearPendingIRQ(TIMER1_IRQn);
+	NVIC_EnableIRQ(TIMER1_IRQn);
+}
+
+/*ACA PREGUNTO QUIEN FUE EL QUE ME INTERRUMPIO**/
+void TIMER0_IRQHandler (void)
+{
+	static unsigned int Cuenta_Entrada = 0;
+
+	if (Chip_TIMER_MatchPending(LPC_TIMER0, MATCH(0)))
+	{
+		 Chip_TIMER_ClearMatch(LPC_TIMER0, MATCH(0));
+
+
+		 if (Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(4) ) == 0 )
+			 Cuenta_Entrada ++; //almacena la cantidad de cuentas mientras tenga pulsado la entrada
+
+		 else
+		 {
+			 if (Cuenta_Entrada != 0)
+			 {
+				 if (Cuenta_Entrada >= 10 && Cuenta_Entrada < 40) //condicion de no acceso
+				 {
+					 Acceso = ACCESO_DENEGADO;
+					 Chip_GPIO_SetPinState(LPC_GPIO, PORT(1), PIN(11), (bool) false); //estado 0
+					 Chip_TIMER_Enable(LPC_TIMER1);
+				 }
+
+				 if (Cuenta_Entrada >= 40 && Cuenta_Entrada < 80) //condicion de acceso
+				 {
+					 Acceso = ACCESO_VALIDO;
+					 Chip_GPIO_SetPinState(LPC_GPIO, PORT(1), PIN(11), (bool) true); //estado 1
+					 Chip_TIMER_Enable(LPC_TIMER1);
+				 }
+			 }
+
+			 Cuenta_Entrada = 0;
+		 }
+
+	}
+
+}
+
+
+void TIMER1_IRQHandler (void)
+{
+	static unsigned int Cuenta_Interrupciones = 0;
+
+	if (Chip_TIMER_MatchPending(LPC_TIMER0, MATCH(0)))
+	{
+		 Chip_TIMER_ClearMatch(LPC_TIMER0, MATCH(0));
+
+
+		 if (Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(4) ) == 0 )
+			 Cuenta_Entrada ++; //almacena la cantidad de cuentas mientras tenga pulsado la entrada
+
+		 else
+		 {
+			 if (Cuenta_Entrada != 0)
+			 {
+				 if (Cuenta_Entrada >= 10 && Cuenta_Entrada < 40) //condicion de no acceso
+				 {
+					 Acceso = ACCESO_DENEGADO;
+					 Chip_GPIO_SetPinState(LPC_GPIO, PORT(1), PIN(11), (bool) false); //estado 0
+					 Chip_TIMER_Enable(LPC_TIMER1);
+				 }
+
+				 if (Cuenta_Entrada >= 40 && Cuenta_Entrada < 80) //condicion de acceso
+				 {
+					 Acceso = ACCESO_VALIDO;
+					 Chip_GPIO_SetPinState(LPC_GPIO, PORT(1), PIN(11), (bool) true); //estado 1
+					 Chip_TIMER_Enable(LPC_TIMER1);
+				 }
+			 }
+
+			 Cuenta_Entrada = 0;
+		 }
+
+	}
+
+}
+/**
+ * @brief	Handle interrupt from SysTick timer
+ * @return	Nothing
+ */
+static uint32_t tick_ct = 0;
+void SysTick_Handler(void)
+{
+	tick_ct += 1;
+	if ((tick_ct % 50) == 0)
+	{
+		if ( (bool) Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(4) ) == 0 )
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(0) , PIN(14) , (bool) true);
+		else
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(0) , PIN(14) , (bool) false);
+
+
+		if ( (bool) Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(8) ) == 0 )
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(11) , (bool) true);
+		else
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(11) , (bool) false);
+
+
+		if ( (bool) Chip_GPIO_GetPinState (LPC_GPIO_PORT, PORT(0) , PIN(9) ) == 0 )
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(12) , (bool) true);
+		else
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, PORT(1) , PIN(12) , (bool) false);
+	}
+}
+
+
+/**
+ * @brief	main routine for blinky example
+ * @return	Function should not exit.
+ */
+int main(void)
+{
+
+	SystemCoreClockUpdate();
+
+	Configuracion_IO ();
+	Configuracion_Timers();
+
+	/* Enable and setup SysTick Timer at a periodic rate */
+	SysTick_Config(SystemCoreClock / TICKRATE_HZ);
+
+	while (1)
+	{
+		__WFI();
+	}
+}

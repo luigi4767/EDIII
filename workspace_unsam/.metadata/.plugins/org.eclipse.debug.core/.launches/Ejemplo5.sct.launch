@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.yakindu.sct.simulation.debugging.launch">
+<stringAttribute key="filename" value="/EDIII_StateM/Ejemplo5.sct"/>
+<stringAttribute key="operationClass" value=""/>
+</launchConfiguration>

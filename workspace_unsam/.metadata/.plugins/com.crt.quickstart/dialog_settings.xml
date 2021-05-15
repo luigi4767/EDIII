@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\lenovo\Downloads\Practica_Filtro_FIR.zip"/>
+			<item value="C:\nxp\MCUXpressoIDE_11.1.1_3241\ide\plugins\com.nxp.mcuxpresso.tools.wizards_11.1.0.202001081728\Examples\LPCOpen\lpcopen_2_19_lpcxpresso_nxp_lpcxpresso_4337.zip"/>
+		</list>
+	</section>
+	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
+		<item key="dirname" value="C:\Users\lenovo\Downloads"/>
+	</section>
+</section>

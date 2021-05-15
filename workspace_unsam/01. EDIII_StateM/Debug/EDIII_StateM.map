@@ -1,0 +1,1437 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                              ./src/EDIII_Ej2.o (SystemCoreClockUpdate)
+C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o) (Chip_Clock_GetClockInputHz)
+C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                              ./src/sysinit.o (fpuInit)
+C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                              ./src/sysinit.o (Chip_SystemInit)
+c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+                              C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o) (memset)
+c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc43xx.o (__main)
+c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o) (__aeabi_lowlevel_memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+SystemCoreClock     0x4               C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/EDIII_Ej2.o
+ .text          0x00000000        0x0 ./src/EDIII_Ej2.o
+ .data          0x00000000        0x0 ./src/EDIII_Ej2.o
+ .bss           0x00000000        0x0 ./src/EDIII_Ej2.o
+ .group         0x00000000        0xc ./src/cr_startup_lpc43xx.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00000000      0xab4 ./src/cr_startup_lpc43xx.o
+ .group         0x00000000        0xc ./src/crp.o
+ .group         0x00000000        0xc ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .crp           0x00000000        0x4 ./src/crp.o
+ .debug_info    0x00000000       0x40 ./src/crp.o
+ .debug_abbrev  0x00000000       0x38 ./src/crp.o
+ .debug_aranges
+                0x00000000       0x18 ./src/crp.o
+ .debug_macro   0x00000000       0x1a ./src/crp.o
+ .debug_macro   0x00000000      0xab4 ./src/crp.o
+ .debug_macro   0x00000000       0x34 ./src/crp.o
+ .debug_line    0x00000000       0xb1 ./src/crp.o
+ .debug_str     0x00000000     0x2f3a ./src/crp.o
+ .comment       0x00000000       0x77 ./src/crp.o
+ .ARM.attributes
+                0x00000000       0x37 ./src/crp.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .group         0x00000000        0xc ./src/sysinit.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .debug_macro   0x00000000      0xab4 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000      0x12e ./src/sysinit.o
+ .debug_macro   0x00000000      0x5b3 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x7b ./src/sysinit.o
+ .debug_macro   0x00000000       0x28 ./src/sysinit.o
+ .debug_macro   0x00000000       0x3b ./src/sysinit.o
+ .debug_macro   0x00000000       0x2d ./src/sysinit.o
+ .debug_macro   0x00000000       0x42 ./src/sysinit.o
+ .debug_macro   0x00000000      0xd39 ./src/sysinit.o
+ .debug_macro   0x00000000      0x2bc ./src/sysinit.o
+ .debug_macro   0x00000000      0x112 ./src/sysinit.o
+ .debug_macro   0x00000000       0x11 ./src/sysinit.o
+ .debug_macro   0x00000000       0x2a ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x2e6 ./src/sysinit.o
+ .debug_macro   0x00000000       0x82 ./src/sysinit.o
+ .debug_macro   0x00000000      0x13d ./src/sysinit.o
+ .debug_macro   0x00000000      0x198 ./src/sysinit.o
+ .debug_macro   0x00000000       0x34 ./src/sysinit.o
+ .debug_macro   0x00000000       0x58 ./src/sysinit.o
+ .debug_macro   0x00000000      0x236 ./src/sysinit.o
+ .debug_macro   0x00000000      0x572 ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x18a ./src/sysinit.o
+ .debug_macro   0x00000000       0x88 ./src/sysinit.o
+ .debug_macro   0x00000000      0x1b9 ./src/sysinit.o
+ .debug_macro   0x00000000      0x1da ./src/sysinit.o
+ .debug_macro   0x00000000       0x40 ./src/sysinit.o
+ .debug_macro   0x00000000       0x1c ./src/sysinit.o
+ .debug_macro   0x00000000       0x2e ./src/sysinit.o
+ .debug_macro   0x00000000       0x2e ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000      0x201 ./src/sysinit.o
+ .debug_macro   0x00000000       0xe0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x34c ./src/sysinit.o
+ .debug_macro   0x00000000       0xdc ./src/sysinit.o
+ .debug_macro   0x00000000       0xc4 ./src/sysinit.o
+ .debug_macro   0x00000000       0x94 ./src/sysinit.o
+ .debug_macro   0x00000000       0xb8 ./src/sysinit.o
+ .debug_macro   0x00000000       0x4c ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x328 ./src/sysinit.o
+ .debug_macro   0x00000000       0x3a ./src/sysinit.o
+ .debug_macro   0x00000000       0xd0 ./src/sysinit.o
+ .debug_macro   0x00000000       0x18 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x40 ./src/sysinit.o
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_CREG_EnableUSB0Phy
+                0x00000000       0x20 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .rodata.usbPLLSetup
+                0x00000000       0x14 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB_PllSetup
+                0x00000000       0x44 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB0_Init
+                0x00000000       0x2e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB1_Init
+                0x00000000       0x4c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableMainPLL
+                0x00000000       0x20 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_TestMainPLLMultiplier
+                0x00000000       0x48 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableCrystal
+                0x00000000       0x20 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLHz
+                0x00000000      0x126 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLMult
+                0x00000000       0xfc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetDivider
+                0x00000000       0x88 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClockOpts
+                0x00000000       0x84 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableBaseClock
+                0x00000000       0x3c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableBaseClock
+                0x00000000       0x3c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_IsBaseClockEnabled
+                0x00000000       0x44 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableOpts
+                0x00000000       0x7c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Enable
+                0x00000000       0x60 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_RTCEnable
+                0x00000000       0x2c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Disable
+                0x00000000       0x60 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_StartPowerDown
+                0x00000000       0x24 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_ClearPowerDown
+                0x00000000       0x24 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetEMCRate
+                0x00000000       0x48 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupPLL
+                0x00000000       0x7c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x00000000       0x38 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisablePLL
+                0x00000000       0x38 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetPLLStatus
+                0x00000000       0x28 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0xaa8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .text          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .data          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .bss           0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0xaa8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x12e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x7b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x28 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x3b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x2d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x42 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0xd39 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x18 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0xaa8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x12e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b3 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x34 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x8 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0xa c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlashA512       0x1a000000         0x00080000         xr
+MFlashB512       0x1b000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamLoc40         0x10080000         0x0000a000         xrw
+RamAHB32         0x20000000         0x00008000         xrw
+RamAHB16         0x20008000         0x00004000         xrw
+RamAHB_ETB16     0x2000c000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/EDIII_Ej2.o
+LOAD ./src/cr_startup_lpc43xx.o
+LOAD ./src/crp.o
+LOAD ./src/sysinit.o
+LOAD C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a
+START GROUP
+LOAD c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a
+LOAD c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a
+LOAD c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libgcc.a
+END GROUP
+                0x1a000000                __base_MFlashA512 = 0x1a000000
+                0x1a000000                __base_Flash = 0x1a000000
+                0x1a080000                __top_MFlashA512 = 0x1a080000
+                0x1a080000                __top_Flash = 0x1a080000
+                0x1b000000                __base_MFlashB512 = 0x1b000000
+                0x1b000000                __base_Flash2 = 0x1b000000
+                0x1b080000                __top_MFlashB512 = 0x1b080000
+                0x1b080000                __top_Flash2 = 0x1b080000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x10080000                __base_RamLoc40 = 0x10080000
+                0x10080000                __base_RAM2 = 0x10080000
+                0x1008a000                __top_RamLoc40 = 0x1008a000
+                0x1008a000                __top_RAM2 = 0x1008a000
+                0x20000000                __base_RamAHB32 = 0x20000000
+                0x20000000                __base_RAM3 = 0x20000000
+                0x20008000                __top_RamAHB32 = 0x20008000
+                0x20008000                __top_RAM3 = 0x20008000
+                0x20008000                __base_RamAHB16 = 0x20008000
+                0x20008000                __base_RAM4 = 0x20008000
+                0x2000c000                __top_RamAHB16 = 0x2000c000
+                0x2000c000                __top_RAM4 = 0x2000c000
+                0x2000c000                __base_RamAHB_ETB16 = 0x2000c000
+                0x2000c000                __base_RAM5 = 0x2000c000
+                0x20010000                __top_RamAHB_ETB16 = 0x20010000
+                0x20010000                __top_RAM5 = 0x20010000
+
+.text_Flash2    0x1b000000        0x0
+ FILL mask 0xff
+ *(.text_Flash2)
+ *(.text_MFlashB512)
+ *(.text.$Flash2)
+ *(.text.$MFlashB512)
+ *(.text_Flash2.*)
+ *(.text_MFlashB512.*)
+ *(.text.$Flash2.*)
+ *(.text.$MFlashB512.*)
+ *(.rodata.$Flash2)
+ *(.rodata.$MFlashB512)
+ *(.rodata.$Flash2.*)
+ *(.rodata.$MFlashB512.*)
+
+.text           0x1a000000      0xfb4
+ FILL mask 0xff
+                0x1a000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x1a000000      0x114 ./src/cr_startup_lpc43xx.o
+                0x1a000000                g_pfnVectors
+                0x1a000114                . = ALIGN (0x4)
+                0x1a000114                __section_table_start = .
+                0x1a000114                __data_section_table = .
+                0x1a000114        0x4 LONG 0x1a000fb4 LOADADDR (.data)
+                0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
+                0x1a00011c        0x4 LONG 0x0 SIZEOF (.data)
+                0x1a000120        0x4 LONG 0x1a000fb4 LOADADDR (.data_RAM2)
+                0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
+                0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x1a00012c        0x4 LONG 0x1a000fb4 LOADADDR (.data_RAM3)
+                0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
+                0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x1a000138        0x4 LONG 0x1a000fb4 LOADADDR (.data_RAM4)
+                0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
+                0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
+                0x1a000144        0x4 LONG 0x1a000fb4 LOADADDR (.data_RAM5)
+                0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
+                0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
+                0x1a000150                __data_section_table_end = .
+                0x1a000150                __bss_section_table = .
+                0x1a000150        0x4 LONG 0x10000000 ADDR (.bss)
+                0x1a000154        0x4 LONG 0x10 SIZEOF (.bss)
+                0x1a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
+                0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
+                0x1a000164        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x1a000168        0x4 LONG 0x20008000 ADDR (.bss_RAM4)
+                0x1a00016c        0x4 LONG 0x0 SIZEOF (.bss_RAM4)
+                0x1a000170        0x4 LONG 0x2000c000 ADDR (.bss_RAM5)
+                0x1a000174        0x4 LONG 0x0 SIZEOF (.bss_RAM5)
+                0x1a000178                __bss_section_table_end = .
+                0x1a000178                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x1a000178       0xb8 ./src/cr_startup_lpc43xx.o
+                0x1a000178                data_init
+                0x1a0001bc                bss_init
+                0x1a0001f4                NMI_Handler
+                0x1a0001fa                HardFault_Handler
+                0x1a000200                MemManage_Handler
+                0x1a000206                BusFault_Handler
+                0x1a00020c                UsageFault_Handler
+                0x1a000212                SVC_Handler
+                0x1a000218                DebugMon_Handler
+                0x1a00021e                PendSV_Handler
+                0x1a000224                SysTick_Handler
+                0x1a00022a                ATIMER_IRQHandler
+                0x1a00022a                I2C1_IRQHandler
+                0x1a00022a                UART1_IRQHandler
+                0x1a00022a                GPIO5_IRQHandler
+                0x1a00022a                CAN1_IRQHandler
+                0x1a00022a                USB1_IRQHandler
+                0x1a00022a                I2S0_IRQHandler
+                0x1a00022a                TIMER3_IRQHandler
+                0x1a00022a                UART0_IRQHandler
+                0x1a00022a                I2C0_IRQHandler
+                0x1a00022a                SGPIO_IRQHandler
+                0x1a00022a                FLASH_EEPROM_IRQHandler
+                0x1a00022a                ADCHS_IRQHandler
+                0x1a00022a                GPIO6_IRQHandler
+                0x1a00022a                IntDefaultHandler
+                0x1a00022a                GPIO1_IRQHandler
+                0x1a00022a                SSP0_IRQHandler
+                0x1a00022a                ADC1_IRQHandler
+                0x1a00022a                RTC_IRQHandler
+                0x1a00022a                TIMER0_IRQHandler
+                0x1a00022a                SPI_IRQHandler
+                0x1a00022a                LCD_IRQHandler
+                0x1a00022a                RIT_IRQHandler
+                0x1a00022a                TIMER1_IRQHandler
+                0x1a00022a                UART2_IRQHandler
+                0x1a00022a                GPIO2_IRQHandler
+                0x1a00022a                I2S1_IRQHandler
+                0x1a00022a                SSP1_IRQHandler
+                0x1a00022a                USB0_IRQHandler
+                0x1a00022a                GPIO3_IRQHandler
+                0x1a00022a                SCT_IRQHandler
+                0x1a00022a                SDIO_IRQHandler
+                0x1a00022a                WDT_IRQHandler
+                0x1a00022a                ADC0_IRQHandler
+                0x1a00022a                GPIO7_IRQHandler
+                0x1a00022a                SPIFI_IRQHandler
+                0x1a00022a                QEI_IRQHandler
+                0x1a00022a                ETH_IRQHandler
+                0x1a00022a                CAN0_IRQHandler
+                0x1a00022a                GINT0_IRQHandler
+                0x1a00022a                DAC_IRQHandler
+                0x1a00022a                M0SUB_IRQHandler
+                0x1a00022a                GPIO0_IRQHandler
+                0x1a00022a                DMA_IRQHandler
+                0x1a00022a                EVRT_IRQHandler
+                0x1a00022a                TIMER2_IRQHandler
+                0x1a00022a                UART3_IRQHandler
+                0x1a00022a                MCPWM_IRQHandler
+                0x1a00022a                M0APP_IRQHandler
+                0x1a00022a                GINT1_IRQHandler
+                0x1a00022a                GPIO4_IRQHandler
+ *(.text*)
+ .text.main     0x1a000230       0x1c ./src/EDIII_Ej2.o
+                0x1a000230                main
+ .text.ResetISR
+                0x1a00024c       0xc4 ./src/cr_startup_lpc43xx.o
+                0x1a00024c                ResetISR
+ .text.SystemInit
+                0x1a000310       0x28 ./src/sysinit.o
+                0x1a000310                SystemInit
+ .text.SystemCoreClockUpdate
+                0x1a000338       0x18 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x1a000338                SystemCoreClockUpdate
+ .text.ABS      0x1a000350       0x22 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *fill*         0x1a000372        0x2 ff
+ .text.pll_calc_divs
+                0x1a000374      0x124 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.pll_get_frac
+                0x1a000498      0x176 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetDivRate
+                0x1a00060e       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *fill*         0x1a00064e        0x2 ff
+ .text.Chip_Clock_FindBaseClock
+                0x1a000650       0x90 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x1a0006e0       0x70 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0006e0                Chip_Clock_EnableCrystal
+ .text.Chip_Clock_CalcMainPLLValue
+                0x1a000750       0xd8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000750                Chip_Clock_CalcMainPLLValue
+ .text.Chip_Clock_GetMainPLLHz
+                0x1a000828       0xc0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000828                Chip_Clock_GetMainPLLHz
+ .text.Chip_Clock_GetDividerSource
+                0x1a0008e8       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0008e8                Chip_Clock_GetDividerSource
+ .text.Chip_Clock_GetDividerDivisor
+                0x1a000928       0x38 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000928                Chip_Clock_GetDividerDivisor
+ .text.Chip_Clock_GetClockInputHz
+                0x1a000960      0x140 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000960                Chip_Clock_GetClockInputHz
+ .text.Chip_Clock_GetBaseClocktHz
+                0x1a000aa0       0x24 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000aa0                Chip_Clock_GetBaseClocktHz
+ .text.Chip_Clock_SetBaseClock
+                0x1a000ac4       0x9c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000ac4                Chip_Clock_SetBaseClock
+ .text.Chip_Clock_GetBaseClock
+                0x1a000b60       0x4c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000b60                Chip_Clock_GetBaseClock
+ .text.Chip_Clock_GetRate
+                0x1a000bac       0x88 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000bac                Chip_Clock_GetRate
+ .text.fpuInit  0x1a000c34       0x74 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                0x1a000c34                fpuInit
+ .text.Chip_Clock_DisableMainPLL
+                0x1a000ca8       0x20 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLL
+                0x1a000cc8       0x44 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_Clock_MainPLLLocked
+                0x1a000d0c       0x24 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupCoreClock
+                0x1a000d30      0x15c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a000d30                Chip_SetupCoreClock
+ .text.Chip_SetupIrcClocking
+                0x1a000e8c       0x18 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a000e8c                Chip_SetupIrcClocking
+ .text.Chip_SystemInit
+                0x1a000ea4        0xc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a000ea4                Chip_SystemInit
+ .text.memset   0x1a000eb0        0x4 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+                0x1a000eb0                memset
+ .text.__weak_main
+                0x1a000eb4        0x4 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+                0x1a000eb4                __weak_main
+                0x1a000eb4                __main
+ .text.__aeabi_memset_lowlevel
+                0x1a000eb8       0x32 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+                0x1a000eb8                __aeabi_lowlevel_memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *fill*         0x1a000eea        0x2 ff
+ .rodata.ExtRateIn
+                0x1a000eec        0x4 ./src/sysinit.o
+                0x1a000eec                ExtRateIn
+ .rodata.OscRateIn
+                0x1a000ef0        0x4 ./src/sysinit.o
+                0x1a000ef0                OscRateIn
+ .rodata.periph_to_base
+                0x1a000ef4       0x6c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .rodata        0x1a000f60        0x4 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .rodata.Chip_Clock_SetDivider.str1.4
+                0x1a000f64        0x8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                  0x6 (size before relaxing)
+ .rodata.InitClkStates
+                0x1a000f6c       0x48 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a000fb4                . = ALIGN (0x4)
+
+.glue_7         0x1a000fb4        0x0
+ .glue_7        0x1a000fb4        0x0 linker stubs
+
+.glue_7t        0x1a000fb4        0x0
+ .glue_7t       0x1a000fb4        0x0 linker stubs
+
+.vfp11_veneer   0x1a000fb4        0x0
+ .vfp11_veneer  0x1a000fb4        0x0 linker stubs
+
+.v4_bx          0x1a000fb4        0x0
+ .v4_bx         0x1a000fb4        0x0 linker stubs
+
+.iplt           0x1a000fb4        0x0
+ .iplt          0x1a000fb4        0x0 ./src/EDIII_Ej2.o
+
+.rel.dyn        0x1a000fb4        0x0
+ .rel.iplt      0x1a000fb4        0x0 ./src/EDIII_Ej2.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x1a000fb4        0x0
+                0x1a000fb4                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x1a000fb4                __exidx_end = .
+                0x1a000fb4                _etext = .
+
+.data_RAM2      0x10080000        0x0 load address 0x1a000fb4
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2 = .)
+                [!provide]                PROVIDE (__start_data_RamLoc40 = .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamLoc40)
+ *(.data.$RAM2)
+ *(.data.$RamLoc40)
+ *(.data.$RAM2.*)
+ *(.data.$RamLoc40.*)
+                0x10080000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2 = .)
+                [!provide]                PROVIDE (__end_data_RamLoc40 = .)
+
+.data_RAM3      0x20000000        0x0 load address 0x1a000fb4
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM3 = .)
+                [!provide]                PROVIDE (__start_data_RamAHB32 = .)
+ *(.ramfunc.$RAM3)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM3)
+ *(.data.$RamAHB32)
+ *(.data.$RAM3.*)
+ *(.data.$RamAHB32.*)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM3 = .)
+                [!provide]                PROVIDE (__end_data_RamAHB32 = .)
+
+.data_RAM4      0x20008000        0x0 load address 0x1a000fb4
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM4 = .)
+                [!provide]                PROVIDE (__start_data_RamAHB16 = .)
+ *(.ramfunc.$RAM4)
+ *(.ramfunc.$RamAHB16)
+ *(.data.$RAM4)
+ *(.data.$RamAHB16)
+ *(.data.$RAM4.*)
+ *(.data.$RamAHB16.*)
+                0x20008000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM4 = .)
+                [!provide]                PROVIDE (__end_data_RamAHB16 = .)
+
+.data_RAM5      0x2000c000        0x0 load address 0x1a000fb4
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM5 = .)
+                [!provide]                PROVIDE (__start_data_RamAHB_ETB16 = .)
+ *(.ramfunc.$RAM5)
+ *(.ramfunc.$RamAHB_ETB16)
+ *(.data.$RAM5)
+ *(.data.$RamAHB_ETB16)
+ *(.data.$RAM5.*)
+ *(.data.$RamAHB_ETB16.*)
+                0x2000c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM5 = .)
+                [!provide]                PROVIDE (__end_data_RamAHB_ETB16 = .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+                0x10000000                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x1a000fb4
+ FILL mask 0xff
+                0x10000000                _data = .
+                [!provide]                PROVIDE (__start_data_RAM = .)
+                [!provide]                PROVIDE (__start_data_RamLoc32 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+                [!provide]                PROVIDE (__end_data_RAM = .)
+                [!provide]                PROVIDE (__end_data_RamLoc32 = .)
+
+.igot.plt       0x10000000        0x0 load address 0x1a000fb4
+ .igot.plt      0x10000000        0x0 ./src/EDIII_Ej2.o
+
+.bss_RAM2       0x10080000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2 = .)
+                [!provide]                PROVIDE (__start_bss_RamLoc40 = .)
+ *(.bss.$RAM2)
+ *(.bss.$RamLoc40)
+ *(.bss.$RAM2.*)
+ *(.bss.$RamLoc40.*)
+                0x10080000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2 = .)
+                [!provide]                PROVIDE (__end_bss_RamLoc40 = .)
+
+.bss_RAM3       0x20000000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM3 = .)
+                [!provide]                PROVIDE (__start_bss_RamAHB32 = .)
+ *(.bss.$RAM3)
+ *(.bss.$RamAHB32)
+ *(.bss.$RAM3.*)
+ *(.bss.$RamAHB32.*)
+                0x20000000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM3 = .)
+                [!provide]                PROVIDE (__end_bss_RamAHB32 = .)
+
+.bss_RAM4       0x20008000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM4 = .)
+                [!provide]                PROVIDE (__start_bss_RamAHB16 = .)
+ *(.bss.$RAM4)
+ *(.bss.$RamAHB16)
+ *(.bss.$RAM4.*)
+ *(.bss.$RamAHB16.*)
+                0x20008000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM4 = .)
+                [!provide]                PROVIDE (__end_bss_RamAHB16 = .)
+
+.bss_RAM5       0x2000c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM5 = .)
+                [!provide]                PROVIDE (__start_bss_RamAHB_ETB16 = .)
+ *(.bss.$RAM5)
+ *(.bss.$RamAHB_ETB16)
+ *(.bss.$RAM5.*)
+ *(.bss.$RamAHB_ETB16.*)
+                0x2000c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM5 = .)
+                [!provide]                PROVIDE (__end_bss_RamAHB_ETB16 = .)
+
+.bss            0x10000000       0x10
+                0x10000000                _bss = .
+                [!provide]                PROVIDE (__start_bss_RAM = .)
+                [!provide]                PROVIDE (__start_bss_RamLoc32 = .)
+ *(.bss*)
+ .bss.i.10241   0x10000000        0x4 ./src/EDIII_Ej2.o
+ .bss.audio_usb_pll_freq
+                0x10000004        0x8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *(COMMON)
+ COMMON         0x1000000c        0x4 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x1000000c                SystemCoreClock
+                0x10000010                . = ALIGN (0x4)
+                0x10000010                _ebss = .
+                [!provide]                PROVIDE (__end_bss_RAM = .)
+                [!provide]                PROVIDE (__end_bss_RamLoc32 = .)
+                [!provide]                PROVIDE (end = .)
+
+.noinit_RAM2    0x10080000        0x0
+                [!provide]                PROVIDE (__start_noinit_RAM2 = .)
+                [!provide]                PROVIDE (__start_noinit_RamLoc40 = .)
+ *(.noinit.$RAM2)
+ *(.noinit.$RamLoc40)
+ *(.noinit.$RAM2.*)
+ *(.noinit.$RamLoc40.*)
+                0x10080000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_noinit_RAM2 = .)
+                [!provide]                PROVIDE (__end_noinit_RamLoc40 = .)
+
+.noinit_RAM3    0x20000000        0x0
+                [!provide]                PROVIDE (__start_noinit_RAM3 = .)
+                [!provide]                PROVIDE (__start_noinit_RamAHB32 = .)
+ *(.noinit.$RAM3)
+ *(.noinit.$RamAHB32)
+ *(.noinit.$RAM3.*)
+ *(.noinit.$RamAHB32.*)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_noinit_RAM3 = .)
+                [!provide]                PROVIDE (__end_noinit_RamAHB32 = .)
+
+.noinit_RAM4    0x20008000        0x0
+                [!provide]                PROVIDE (__start_noinit_RAM4 = .)
+                [!provide]                PROVIDE (__start_noinit_RamAHB16 = .)
+ *(.noinit.$RAM4)
+ *(.noinit.$RamAHB16)
+ *(.noinit.$RAM4.*)
+ *(.noinit.$RamAHB16.*)
+                0x20008000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_noinit_RAM4 = .)
+                [!provide]                PROVIDE (__end_noinit_RamAHB16 = .)
+
+.noinit_RAM5    0x2000c000        0x0
+                [!provide]                PROVIDE (__start_noinit_RAM5 = .)
+                [!provide]                PROVIDE (__start_noinit_RamAHB_ETB16 = .)
+ *(.noinit.$RAM5)
+ *(.noinit.$RamAHB_ETB16)
+ *(.noinit.$RAM5.*)
+ *(.noinit.$RamAHB_ETB16.*)
+                0x2000c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_noinit_RAM5 = .)
+                [!provide]                PROVIDE (__end_noinit_RamAHB_ETB16 = .)
+
+.noinit         0x10000010        0x0
+                0x10000010                _noinit = .
+                [!provide]                PROVIDE (__start_noinit_RAM = .)
+                [!provide]                PROVIDE (__start_noinit_RamLoc32 = .)
+ *(.noinit*)
+                0x10000010                . = ALIGN (0x4)
+                0x10000010                _end_noinit = .
+                [!provide]                PROVIDE (__end_noinit_RAM = .)
+                [!provide]                PROVIDE (__end_noinit_RamLoc32 = .)
+                [!provide]                PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0x53ff73ae                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0x1a000000                _image_start = LOADADDR (.text)
+                0x1a000fb4                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00000fb4                _image_size = (_image_end - _image_start)
+OUTPUT(EDIII_StateM.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x3693
+ .debug_info    0x00000000      0x135 ./src/EDIII_Ej2.o
+ .debug_info    0x00000135      0x2bd ./src/cr_startup_lpc43xx.o
+ .debug_info    0x000003f2      0x610 ./src/sysinit.o
+ .debug_info    0x00000a02      0xacc C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_info    0x000014ce     0x16c2 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_info    0x00002b90      0x164 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_info    0x00002cf4      0x99f C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_abbrev   0x00000000      0xa1f
+ .debug_abbrev  0x00000000       0xbb ./src/EDIII_Ej2.o
+ .debug_abbrev  0x000000bb      0x120 ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x000001db      0x109 ./src/sysinit.o
+ .debug_abbrev  0x000002e4      0x19b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_abbrev  0x0000047f      0x31b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_abbrev  0x0000079a       0xb4 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_abbrev  0x0000084e      0x1d1 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_aranges  0x00000000      0x2a8
+ .debug_aranges
+                0x00000000       0x20 ./src/EDIII_Ej2.o
+ .debug_aranges
+                0x00000020       0x80 ./src/cr_startup_lpc43xx.o
+ .debug_aranges
+                0x000000a0       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x000000c0       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_aranges
+                0x00000100      0x138 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_aranges
+                0x00000238       0x20 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_aranges
+                0x00000258       0x50 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_ranges   0x00000000      0x250
+ .debug_ranges  0x00000000       0x10 ./src/EDIII_Ej2.o
+ .debug_ranges  0x00000010       0x70 ./src/cr_startup_lpc43xx.o
+ .debug_ranges  0x00000080       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000090       0x30 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_ranges  0x000000c0      0x140 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_ranges  0x00000200       0x10 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_ranges  0x00000210       0x40 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_macro    0x00000000     0x6201
+ .debug_macro   0x00000000      0x2e3 ./src/EDIII_Ej2.o
+ .debug_macro   0x000002e3      0xab4 ./src/EDIII_Ej2.o
+ .debug_macro   0x00000d97       0x10 ./src/EDIII_Ej2.o
+ .debug_macro   0x00000da7       0x10 ./src/EDIII_Ej2.o
+ .debug_macro   0x00000db7      0x12e ./src/EDIII_Ej2.o
+ .debug_macro   0x00000ee5      0x5b3 ./src/EDIII_Ej2.o
+ .debug_macro   0x00001498       0x22 ./src/EDIII_Ej2.o
+ .debug_macro   0x000014ba       0x7b ./src/EDIII_Ej2.o
+ .debug_macro   0x00001535       0x28 ./src/EDIII_Ej2.o
+ .debug_macro   0x0000155d       0x3b ./src/EDIII_Ej2.o
+ .debug_macro   0x00001598       0x2d ./src/EDIII_Ej2.o
+ .debug_macro   0x000015c5       0x42 ./src/EDIII_Ej2.o
+ .debug_macro   0x00001607      0xd39 ./src/EDIII_Ej2.o
+ .debug_macro   0x00002340      0x2bc ./src/EDIII_Ej2.o
+ .debug_macro   0x000025fc      0x112 ./src/EDIII_Ej2.o
+ .debug_macro   0x0000270e       0x11 ./src/EDIII_Ej2.o
+ .debug_macro   0x0000271f       0x2a ./src/EDIII_Ej2.o
+ .debug_macro   0x00002749       0x16 ./src/EDIII_Ej2.o
+ .debug_macro   0x0000275f      0x2e6 ./src/EDIII_Ej2.o
+ .debug_macro   0x00002a45       0x82 ./src/EDIII_Ej2.o
+ .debug_macro   0x00002ac7      0x13d ./src/EDIII_Ej2.o
+ .debug_macro   0x00002c04      0x198 ./src/EDIII_Ej2.o
+ .debug_macro   0x00002d9c       0x34 ./src/EDIII_Ej2.o
+ .debug_macro   0x00002dd0       0x58 ./src/EDIII_Ej2.o
+ .debug_macro   0x00002e28      0x236 ./src/EDIII_Ej2.o
+ .debug_macro   0x0000305e      0x572 ./src/EDIII_Ej2.o
+ .debug_macro   0x000035d0       0x16 ./src/EDIII_Ej2.o
+ .debug_macro   0x000035e6      0x18a ./src/EDIII_Ej2.o
+ .debug_macro   0x00003770       0x88 ./src/EDIII_Ej2.o
+ .debug_macro   0x000037f8      0x1b9 ./src/EDIII_Ej2.o
+ .debug_macro   0x000039b1      0x1da ./src/EDIII_Ej2.o
+ .debug_macro   0x00003b8b       0x40 ./src/EDIII_Ej2.o
+ .debug_macro   0x00003bcb       0x1c ./src/EDIII_Ej2.o
+ .debug_macro   0x00003be7       0x2e ./src/EDIII_Ej2.o
+ .debug_macro   0x00003c15       0x2e ./src/EDIII_Ej2.o
+ .debug_macro   0x00003c43       0x22 ./src/EDIII_Ej2.o
+ .debug_macro   0x00003c65      0x201 ./src/EDIII_Ej2.o
+ .debug_macro   0x00003e66       0xe0 ./src/EDIII_Ej2.o
+ .debug_macro   0x00003f46      0x34c ./src/EDIII_Ej2.o
+ .debug_macro   0x00004292       0xdc ./src/EDIII_Ej2.o
+ .debug_macro   0x0000436e       0xc4 ./src/EDIII_Ej2.o
+ .debug_macro   0x00004432       0x94 ./src/EDIII_Ej2.o
+ .debug_macro   0x000044c6       0xb8 ./src/EDIII_Ej2.o
+ .debug_macro   0x0000457e       0x4c ./src/EDIII_Ej2.o
+ .debug_macro   0x000045ca       0x16 ./src/EDIII_Ej2.o
+ .debug_macro   0x000045e0      0x328 ./src/EDIII_Ej2.o
+ .debug_macro   0x00004908       0x3a ./src/EDIII_Ej2.o
+ .debug_macro   0x00004942       0xd0 ./src/EDIII_Ej2.o
+ .debug_macro   0x00004a12       0x18 ./src/EDIII_Ej2.o
+ .debug_macro   0x00004a2a       0x22 ./src/EDIII_Ej2.o
+ .debug_macro   0x00004a4c       0x40 ./src/EDIII_Ej2.o
+ .debug_macro   0x00004a8c       0x82 ./src/EDIII_Ej2.o
+ .debug_macro   0x00004b0e       0x1d ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00004b2b      0x2da ./src/sysinit.o
+ .debug_macro   0x00004e05      0x2da C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x000050df      0xaa8 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00005b87      0x2e0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00005e67       0xc0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00005f27      0x2da C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_line     0x00000000     0x30e5
+ .debug_line    0x00000000      0x708 ./src/EDIII_Ej2.o
+ .debug_line    0x00000708      0x1a2 ./src/cr_startup_lpc43xx.o
+ .debug_line    0x000008aa      0x670 ./src/sysinit.o
+ .debug_line    0x00000f1a      0x70e C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_line    0x00001628     0x100d C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_line    0x00002635      0x2a5 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_line    0x000028da      0x80b C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+.debug_str      0x00000000    0x17505
+ .debug_str     0x00000000    0x15cdb ./src/EDIII_Ej2.o
+                              0x15dc5 (size before relaxing)
+ .debug_str     0x00015cdb      0x1f2 ./src/cr_startup_lpc43xx.o
+                               0x304e (size before relaxing)
+ .debug_str     0x00015ecd      0xa2f ./src/sysinit.o
+                              0x163ab (size before relaxing)
+ .debug_str     0x000168fc      0x441 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                              0x16671 (size before relaxing)
+ .debug_str     0x00016d3d      0x62c C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              0x16bf0 (size before relaxing)
+ .debug_str     0x00017369       0xb5 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                               0xa1c6 (size before relaxing)
+ .debug_str     0x0001741e       0xe7 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                              0x16650 (size before relaxing)
+
+.comment        0x00000000       0x76
+ .comment       0x00000000       0x76 ./src/EDIII_Ej2.o
+                                 0x77 (size before relaxing)
+ .comment       0x00000076       0x77 ./src/cr_startup_lpc43xx.o
+ .comment       0x00000076       0x77 ./src/sysinit.o
+ .comment       0x00000076       0x77 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .comment       0x00000076       0x77 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .comment       0x00000076       0x77 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .comment       0x00000076       0x77 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .comment       0x00000076       0x77 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+ .comment       0x00000076       0x77 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x32 ./src/EDIII_Ej2.o
+ .ARM.attributes
+                0x00000032       0x32 ./src/cr_startup_lpc43xx.o
+ .ARM.attributes
+                0x00000064       0x32 ./src/sysinit.o
+ .ARM.attributes
+                0x00000096       0x32 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .ARM.attributes
+                0x000000c8       0x32 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .ARM.attributes
+                0x000000fa       0x32 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .ARM.attributes
+                0x0000012c       0x32 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .ARM.attributes
+                0x0000015e       0x32 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x00000190       0x32 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x000001c2       0x20 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0x904
+ .debug_frame   0x00000000       0x2c ./src/EDIII_Ej2.o
+ .debug_frame   0x0000002c      0x170 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x0000019c       0x34 ./src/sysinit.o
+ .debug_frame   0x000001d0       0xa0 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_frame   0x00000270      0x568 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_frame   0x000007d8       0x38 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_frame   0x00000810       0xf4 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC0_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+ADC1_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+ADCHS_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+ATIMER_IRQHandler                                 ./src/cr_startup_lpc43xx.o
+BusFault_Handler                                  ./src/cr_startup_lpc43xx.o
+CAN0_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+CAN1_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+CRP_WORD                                          ./src/crp.o
+Chip_Clock_CalcMainPLLValue                       C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+Chip_Clock_ClearPowerDown                         C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_Disable                                C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_DisableBaseClock                       C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_DisableCrystal                         C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_DisablePLL                             C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_Enable                                 C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_EnableBaseClock                        C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_EnableCrystal                          C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+Chip_Clock_EnableOpts                             C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_EnablePLL                              C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_GetBaseClock                           C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_GetBaseClockOpts                       C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_GetBaseClocktHz                        C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_GetClockInputHz                        C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_GetDividerDivisor                      C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_GetDividerSource                       C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_GetEMCRate                             C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_GetMainPLLHz                           C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_GetPLLStatus                           C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_GetRate                                C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_IsBaseClockEnabled                     C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_RTCEnable                              C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_SetBaseClock                           C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_SetDivider                             C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_SetupMainPLLHz                         C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_SetupMainPLLMult                       C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_Clock_SetupPLL                               C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_Clock_StartPowerDown                         C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+Chip_SetupCoreClock                               C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+Chip_SetupIrcClocking                             C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+Chip_SetupXtalClocking                            C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+Chip_SystemInit                                   C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                                                  ./src/sysinit.o
+Chip_USB0_Init                                    C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+Chip_USB1_Init                                    C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+DAC_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+DMA_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+DebugMon_Handler                                  ./src/cr_startup_lpc43xx.o
+ETH_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+EVRT_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+ExtRateIn                                         ./src/sysinit.o
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+FLASH_EEPROM_IRQHandler                           ./src/cr_startup_lpc43xx.o
+GINT0_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GINT1_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO0_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO1_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO2_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO3_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO4_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO5_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO6_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+GPIO7_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+HardFault_Handler                                 ./src/cr_startup_lpc43xx.o
+I2C0_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+I2C1_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+I2S0_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+I2S1_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+IntDefaultHandler                                 ./src/cr_startup_lpc43xx.o
+LCD_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+M0APP_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+M0SUB_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+MCPWM_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+MemManage_Handler                                 ./src/cr_startup_lpc43xx.o
+NMI_Handler                                       ./src/cr_startup_lpc43xx.o
+OscRateIn                                         ./src/sysinit.o
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+PendSV_Handler                                    ./src/cr_startup_lpc43xx.o
+QEI_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+RIT_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+RTC_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+ResetISR                                          ./src/cr_startup_lpc43xx.o
+SCT_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+SDIO_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+SGPIO_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+SPIFI_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+SPI_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+SSP0_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+SSP1_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+SVC_Handler                                       ./src/cr_startup_lpc43xx.o
+SysTick_Handler                                   ./src/cr_startup_lpc43xx.o
+SystemCoreClock                                   C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+SystemCoreClockUpdate                             C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                                                  ./src/EDIII_Ej2.o
+SystemInit                                        ./src/sysinit.o
+                                                  ./src/cr_startup_lpc43xx.o
+TIMER0_IRQHandler                                 ./src/cr_startup_lpc43xx.o
+TIMER1_IRQHandler                                 ./src/cr_startup_lpc43xx.o
+TIMER2_IRQHandler                                 ./src/cr_startup_lpc43xx.o
+TIMER3_IRQHandler                                 ./src/cr_startup_lpc43xx.o
+UART0_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+UART1_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+UART2_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+UART3_IRQHandler                                  ./src/cr_startup_lpc43xx.o
+USB0_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+USB1_IRQHandler                                   ./src/cr_startup_lpc43xx.o
+UsageFault_Handler                                ./src/cr_startup_lpc43xx.o
+WDT_IRQHandler                                    ./src/cr_startup_lpc43xx.o
+__aeabi_lowlevel_memset                           c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+                                                  c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+__aeabi_memclr                                    c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memclr4                                   c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memclr8                                   c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memcpy                                    c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memcpy4                                   c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memcpy8                                   c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memmove                                   c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memmove4                                  c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memmove8                                  c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memset                                    c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memset4                                   c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__aeabi_memset8                                   c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/softfp\libcr_eabihelpers.a(memcpy.o)
+__bss_section_table_end                           ./src/cr_startup_lpc43xx.o
+__data_section_table                              ./src/cr_startup_lpc43xx.o
+__data_section_table_end                          ./src/cr_startup_lpc43xx.o
+__main                                            c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+                                                  ./src/cr_startup_lpc43xx.o
+__valid_user_code_checksum                        ./src/cr_startup_lpc43xx.o
+__weak_main                                       c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+_vStackTop                                        ./src/cr_startup_lpc43xx.o
+bss_init                                          ./src/cr_startup_lpc43xx.o
+data_init                                         ./src/cr_startup_lpc43xx.o
+fpuInit                                           C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                                                  ./src/sysinit.o
+g_pfnVectors                                      ./src/cr_startup_lpc43xx.o
+                                                  ./src/sysinit.o
+main                                              ./src/EDIII_Ej2.o
+                                                  c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(__weak__main.o)
+memset                                            c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libcr_c.a(memset.o)
+                                                  C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)

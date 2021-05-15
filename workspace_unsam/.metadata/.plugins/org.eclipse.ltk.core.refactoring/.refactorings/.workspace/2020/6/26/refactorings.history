@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;11. freertos_mutex&apos; to &apos;11. freertos_queue2&apos;" description="Rename resource &apos;11. freertos_mutex&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/11. freertos_mutex" name="11. freertos_queue2" stamp="1593042389253" updateReferences="true"/>
+</session>

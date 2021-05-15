@@ -1,0 +1,9 @@
+08:09:26 **** Clean-only build of configuration Debug for project periph_blinky ****
+make -r -j4 clean 
+rm -rf  ./example/src/cr_startup_lpc43xx.o ./example/src/sysinit.o ./example/src/systick.o  ./example/src/cr_startup_lpc43xx.d ./example/src/sysinit.d ./example/src/systick.d  periph_blinky.axf
+rm: can't remove 'periph_blinky.axf': Permission denied
+make: [makefile:39: clean] Error 1 (ignored)
+ 
+
+08:09:26 Build Finished. 0 errors, 0 warnings. (took 70ms)
+

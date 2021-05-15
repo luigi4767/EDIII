@@ -1,0 +1,46 @@
+23:05:42 **** Build of configuration Debug for project lpc_board_nxp_lpcxpresso_4337_m0 ****
+make -r all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_board_nxp_lpcxpresso_4337_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_board_nxp_lpcxpresso_4337_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building file: ../src/lcd_st7565s.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_board_nxp_lpcxpresso_4337_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/lcd_st7565s.d" -MT"src/lcd_st7565s.o" -MT"src/lcd_st7565s.d" -o "src/lcd_st7565s.o" "../src/lcd_st7565s.c"
+Finished building: ../src/lcd_st7565s.c
+ 
+Building file: ../src/lpc_phy_smsc87x0.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_board_nxp_lpcxpresso_4337_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/lpc_phy_smsc87x0.d" -MT"src/lpc_phy_smsc87x0.o" -MT"src/lpc_phy_smsc87x0.d" -o "src/lpc_phy_smsc87x0.o" "../src/lpc_phy_smsc87x0.c"
+Finished building: ../src/lpc_phy_smsc87x0.c
+ 
+Building file: ../src/wm8904.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_board_nxp_lpcxpresso_4337_m0\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace_unsam\lpc_chip_43xx_m0\inc\config_m0app" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/wm8904.d" -MT"src/wm8904.o" -MT"src/wm8904.d" -o "src/wm8904.o" "../src/wm8904.c"
+Finished building: ../src/wm8904.c
+ 
+Building target: liblpc_board_nxp_lpcxpresso_4337_m0.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_board_nxp_lpcxpresso_4337_m0.a"  ./src/board.o ./src/board_sysinit.o ./src/lcd_st7565s.o ./src/lpc_phy_smsc87x0.o ./src/wm8904.o   
+arm-none-eabi-ar: creating liblpc_board_nxp_lpcxpresso_4337_m0.a
+Finished building target: liblpc_board_nxp_lpcxpresso_4337_m0.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_board_nxp_lpcxpresso_4337_m0.a" ; # arm-none-eabi-objdump -h -S "liblpc_board_nxp_lpcxpresso_4337_m0.a" >"liblpc_board_nxp_lpcxpresso_4337_m0.lss"
+   text	   data	    bss	    dec	    hex	filename
+   2336	      0	      4	   2340	    924	board.o (ex liblpc_board_nxp_lpcxpresso_4337_m0.a)
+    480	      0	      0	    480	    1e0	board_sysinit.o (ex liblpc_board_nxp_lpcxpresso_4337_m0.a)
+   1754	      4	   1044	   2802	    af2	lcd_st7565s.o (ex liblpc_board_nxp_lpcxpresso_4337_m0.a)
+    968	      0	     18	    986	    3da	lpc_phy_smsc87x0.o (ex liblpc_board_nxp_lpcxpresso_4337_m0.a)
+    878	      0	      0	    878	    36e	wm8904.o (ex liblpc_board_nxp_lpcxpresso_4337_m0.a)
+ 
+
+23:05:44 Build Finished. 0 errors, 0 warnings. (took 2s.166ms)
+

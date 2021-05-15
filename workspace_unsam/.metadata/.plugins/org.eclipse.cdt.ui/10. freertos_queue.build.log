@@ -1,0 +1,6 @@
+16:29:19 **** Incremental Build of configuration Debug for project 10. freertos_queue ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+16:29:20 Build Finished. 0 errors, 0 warnings. (took 70ms)
+
