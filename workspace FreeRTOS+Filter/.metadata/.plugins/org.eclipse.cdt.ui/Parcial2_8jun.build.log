@@ -1,0 +1,21 @@
+21:11:46 **** Incremental Build of configuration Debug for project Parcial2_8jun ****
+make -r -j4 all 
+Building file: ../example/src/blinky.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__REDLIB__ -DCORE_M4 -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\CMSIS_DSPLIB_CM4\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\lpc_chip_43xx\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\lpc_board_nxp_lpcxpresso_4337\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\Parcial2_8jun\example\inc" -I"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\Parcial2_8jun\freertos\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../example/src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"example/src/blinky.d" -MT"example/src/blinky.o" -MT"example/src/blinky.d" -o "example/src/blinky.o" "../example/src/blinky.c"
+Finished building: ../example/src/blinky.c
+ 
+Building target: Parcial2_8jun.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\CMSIS_DSPLIB_CM4\lib" -L"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\lpc_chip_43xx\Debug" -L"C:\Users\lenovo\Documents\MCUXpressoIDE_11.1.1_3241\workspace FreeRTOS+Filter\lpc_board_nxp_lpcxpresso_4337\Debug" -Xlinker -Map="Parcial2_8jun.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "freertos_blinky_Debug.ld" -o "Parcial2_8jun.axf"  ./freertos/src/FreeRTOSCommonHooks.o ./freertos/src/croutine.o ./freertos/src/event_groups.o ./freertos/src/heap_3.o ./freertos/src/list.o ./freertos/src/port.o ./freertos/src/queue.o ./freertos/src/redlib_memfix.o ./freertos/src/tasks.o ./freertos/src/timers.o  ./example/src/blinky.o ./example/src/cr_startup_lpc43xx.o ./example/src/sysinit.o   -lCMSIS_DSPLIB_CM4 -llpc_board_nxp_lpcxpresso_4337 -llpc_chip_43xx
+Finished building target: Parcial2_8jun.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Parcial2_8jun.axf"; # arm-none-eabi-objcopy -v -O binary "Parcial2_8jun.axf" "Parcial2_8jun.bin" ; # checksum -p LPC4337 -d "Parcial2_8jun.bin";
+   text	   data	    bss	    dec	    hex	filename
+  15124	     56	    944	  16124	   3efc	Parcial2_8jun.axf
+ 
+
+21:11:47 Build Finished. 0 errors, 0 warnings. (took 953ms)
+

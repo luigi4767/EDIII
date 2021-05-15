@@ -1,0 +1,6 @@
+20:22:40 **** Incremental Build of configuration Debug for project Parcialito2_parte2 ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+20:22:40 Build Finished. 0 errors, 0 warnings. (took 96ms)
+

@@ -1,0 +1,9 @@
+scu_18xx_43xx.h:135:20:Chip_SCU_PinMuxSet	16	static
+scu_18xx_43xx.h:150:20:Chip_SCU_PinMux	24	static
+gpio_18xx_43xx.h:95:20:Chip_GPIO_SetPinState	16	static
+gpio_18xx_43xx.h:154:20:Chip_GPIO_SetPinDIROutput	16	static
+gpio_18xx_43xx.h:477:20:Chip_GPIO_SetPinToggle	16	static
+blinky.c:38:6:Configuracion_IO	8	static
+blinky.c:118:15:vLEDTask1	16	static
+blinky.c:130:15:vLEDTask2	16	static
+blinky.c:151:5:main	24	static
