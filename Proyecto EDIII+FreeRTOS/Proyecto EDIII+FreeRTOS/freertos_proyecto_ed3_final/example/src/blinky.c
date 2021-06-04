@@ -112,7 +112,7 @@ static void prvSetupHardware(void) {
  ****************************************************************************/
 #define  SYSTEM_BAUD_RATE 	9600
 #define ADC_ID LPC_ADC0
-#define ADC_CHANNEL 2
+#define ADC_CHANNEL 1
 #define SAMPLING_RATE 20000
 
 

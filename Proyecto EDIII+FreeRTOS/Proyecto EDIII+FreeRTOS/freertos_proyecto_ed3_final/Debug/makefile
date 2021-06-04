@@ -30,7 +30,7 @@ all: freertos_proyecto_ed3_final.axf
 freertos_proyecto_ed3_final.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\Franco\Documents\MCUXpressoIDE_11.1.1_3241\workspace\CMSIS_DSPLIB_CM4\lib" -L"C:\Users\Franco\Documents\MCUXpressoIDE_11.1.1_3241\workspace\lpc_chip_43xx\Debug" -L"C:\Users\Franco\Documents\MCUXpressoIDE_11.1.1_3241\workspace\lpc_board_nxp_lpcxpresso_4337\Debug" -Xlinker -Map="freertos_proyecto_ed3_final.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "freertos_blinky_Debug.ld" -o "freertos_proyecto_ed3_final.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII+FreeRTOS\CMSIS_DSPLIB_CM4\lib" -L"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII+FreeRTOS\lpc_chip_43xx\Debug" -L"C:\Users\luis_\Documents\MCUXpresso\Proyecto EDIII+FreeRTOS\Proyecto EDIII+FreeRTOS\lpc_board_nxp_lpcxpresso_4337\Debug" -Xlinker -Map="freertos_proyecto_ed3_final.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "freertos_blinky_Debug.ld" -o "freertos_proyecto_ed3_final.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
